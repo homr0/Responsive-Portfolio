@@ -129,6 +129,10 @@ textarea {
     height: 150px;
 }
 
+p label {
+    line-height: 2;
+}
+
 input[type="submit"] {
     color: #ffffff;
     background-color: #4aaaa5;
