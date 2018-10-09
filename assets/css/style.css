@@ -168,3 +168,15 @@ input[type="submit"] {
 .portfolio a:hover img {
     opacity: 0.8;
 }
+
+@media only screen and (max-width: 960px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+    
+}
+
+@media only screen and (max-width: 640px) {
+    
+}
