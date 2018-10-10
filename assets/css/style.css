@@ -38,6 +38,7 @@ footer {
     margin: 0 auto;
     clear: both;
     overflow: auto;
+    margin-left: 3rem;
 }
 
 main {
@@ -192,6 +193,11 @@ input[type="submit"] {
     header .content {
         margin: 0 10px;
     }
+
+    main .content {
+        width: calc(100% - 20px);
+        margin: 10px;
+    }
 }
 
 @media screen and (max-width: 640px) {
@@ -224,5 +230,6 @@ input[type="submit"] {
 
     main .content {
         margin: unset;
+        width: 100%;
     }
 }
