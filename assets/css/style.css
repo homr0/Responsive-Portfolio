@@ -148,10 +148,11 @@ input[type="submit"] {
     position: relative;
     text-align: center;
     margin: 20px;
+    max-width: calc(50% - 40px);
 }
 
 .portfolio img {
-    max-width: 100%;
+    width: 100%;
 }
 
 .portfolio p {
@@ -229,5 +230,10 @@ input[type="submit"] {
     main .content {
         margin: unset;
         width: 100%;
+    }
+
+    .portfolio {
+        max-width: 100%;
+        width: calc(100% - 40px);
     }
 }
