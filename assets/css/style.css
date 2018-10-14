@@ -48,7 +48,7 @@ main .content {
     background-color: #ffffff;
     border: 1px #dddddd solid;
     margin: 20px auto;
-    width: 710px;
+    width: calc(100% - 340px);
     margin-left: 3rem;
 }
 
@@ -153,6 +153,7 @@ input[type="submit"] {
 
 .portfolio img {
     width: 100%;
+    max-width: 400px;
 }
 
 .portfolio p {
