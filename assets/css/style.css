@@ -208,11 +208,11 @@ input[type="submit"] {
     position: absolute;
     top: 0;
     right: 0;
-    background-color: rgba(255, 255, 255, 0.25);
+    background-color: rgba(70, 130, 180, 0.75);
 }
 
 .portfolio .github:hover {
-    background-color: rgba(255, 255, 255, 0.75);
+    background-color: rgba(35, 65, 90, 0.75);
 }
 
 footer {
@@ -249,7 +249,7 @@ footer {
 
 @media screen and (max-width: 640px) {
     header {
-        height: 131px;
+        height: auto;
         position: static;
     }
 
