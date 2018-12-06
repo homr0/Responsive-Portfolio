@@ -280,12 +280,18 @@ footer {
         width: 100%;
     }
 
+    img.profile {
+        float: unset;
+        max-width: 100%;
+        width: auto;
+    }
+
     .portfolio {
         max-width: 100%;
     }
 
     .portfolio img {
-        max-width: unset;
+        float: unset;
     }
 
     footer {
