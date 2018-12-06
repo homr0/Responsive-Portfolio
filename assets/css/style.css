@@ -222,6 +222,13 @@ footer {
 }
 
 @media screen and (max-width: 960px) {
+    .content {
+        margin: 1rem;
+    }
+
+    header .content {
+        margin: 0 1rem;
+    }
     nav {
         max-width: unset;
     }
@@ -230,15 +237,24 @@ footer {
         margin: 1rem;
         margin-top: calc(100px + 1rem);
     }
+
+    main .content {
+        width: calc(100% - 2rem);
+        margin: 1rem;
+    }
+
+    footer {
+        height: unset;
+    }
+
+    footer .content {
+        margin-bottom: 0;
+    }
 }
 
 @media screen and (max-width: 768px) {
     .content {
         margin: 10px;
-    }
-
-    header .content {
-        margin: 0 10px;
     }
 
     main .content {
@@ -292,13 +308,5 @@ footer {
 
     .portfolio img {
         float: unset;
-    }
-
-    footer {
-        height: unset;
-    }
-
-    footer .content {
-        margin-bottom: 0;
     }
 }
