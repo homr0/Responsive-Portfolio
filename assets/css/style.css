@@ -1,5 +1,5 @@
 /* Used a complementary color harmony for teal (#4aaaa5) */
-@import url('https://fonts.googleapis.com/css?family=Kreon|Noto+Sans|Poppins');
+@import url('https://fonts.googleapis.com/css?family=Kreon|Glegoo|Poppins');
 
 body {
     margin: 0;
@@ -13,6 +13,10 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: "Kreon", Georgia, Times, 'Times New Roman', serif;
     color:rgba(70, 130, 180, 0.9);
+}
+
+h1 {
+    font-family: "Glegoo", Georgia, 'Times New Roman', Times, serif;
 }
 
 a {
@@ -95,7 +99,7 @@ nav a {
 }
 
 main {
-    min-height: calc(100vh - 200px);
+    min-height: calc(100vh - 228px);
     margin-top: 120px;
 }
 
